@@ -7,7 +7,7 @@
         </APPLICATION>
         <APPLICATION Name="Path_Root">
             <PATHS>
-            	<PATH Name="Main">C:/Dev/Travaux/Java/Eclipse/Workspace</PATH>
+            	<PATH Name="Main">D:/Dev/Travaux/Java/Eclipse/Workspace/Workspace</PATH>
                 <!--PATH Name="Main">I:/Workspace</PATH-->
                 <!--PATH Name="Main">/share/MD0_DATA/droca/Workspace</PATH-->
             </PATHS>
@@ -97,7 +97,7 @@
         </APPLICATION>
         <APPLICATION Name="FrameWork_Lib">
             <PATHS>
-                <PATH Name="Main">[Path_Root]/framework-lib/FrameWork_Lib</PATH>
+                <PATH Name="Main">[Path_Root]/FrameWork_Lib</PATH>
             </PATHS>
             <VERSIONNING>
                 <LOCAL_DIRECTORY>D:/Dev/Travaux/Java/Eclipse/Workspace/Workspace</LOCAL_DIRECTORY>
@@ -170,7 +170,7 @@
         </APPLICATION>
         <APPLICATION Name="FrameWork_Util">
             <PATHS>
-                <PATH Name="Main">[Path_Root]/framework-util/FrameWork_Util</PATH>
+                <PATH Name="Main">[Path_Root]/FrameWork_Util</PATH>
                 <PATH Name="Source">/src</PATH>
                 <PATH Name="Class">/bin</PATH>
             </PATHS>
