@@ -1,0 +1,86 @@
+<ROOT>
+    <APPLICATIONS>
+        <APPLICATION Name="FrameWork_Util">
+            <PATHS>
+                <PATH Name="Main">[Path_Root]/framework-util/FrameWork_Util</PATH>
+                <PATH Name="Source">/src</PATH>
+                <PATH Name="Class">/bin</PATH>
+            </PATHS>
+            <PACKAGING>
+                <PACKAGE Type="Jar" Name="Default" Filename="/lib/FrameWork_Util.jar">
+                    <CONTENT From="/bin" To=""/>
+                </PACKAGE>
+                <PACKAGE Type="Jar" Name="WorkSpace_Dev" Filename="[WorkSpace_Dev]/WorkSpace/WEB-INF/lib/FrameWork_Util.jar">
+                    <CONTENT From="/bin" To=""/>
+                </PACKAGE>
+            </PACKAGING>
+            <VERSIONNING>
+                <LOCAL_DIRECTORY>D:/Dev/Travaux/Java/Eclipse/Workspace/Workspace</LOCAL_DIRECTORY>
+                <MODULE_NAME>FrameWork_Util</MODULE_NAME>
+                <SERVER_HOSTNAME>localhost</SERVER_HOSTNAME>
+                <SERVER_PORT>2401</SERVER_PORT>
+                <SERVER_REPOSITORY>/CVS</SERVER_REPOSITORY>
+                <USER>Administrateur</USER>
+                <PASSWORD>32143214</PASSWORD>
+            </VERSIONNING>
+            <BUILD>
+                <CLASSPATH Type="Path">[FrameWork_Lib]/lib/hibernate3.jar</CLASSPATH>
+                <CLASSPATH Type="Path">[FrameWork_Lib]/lib/jel.jar</CLASSPATH>
+                <CLASSPATH Type="Path">[FrameWork_Lib]/lib/jevaESUI2001-03-03.jar</CLASSPATH>
+                <CLASSPATH Type="Path">[FrameWork_Lib]/lib/serializer.jar</CLASSPATH>
+                <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ShowDTDTree.jar</CLASSPATH>
+                <CLASSPATH Type="Path">[FrameWork_Lib]/lib2/tools.jar</CLASSPATH>
+                <CLASSPATH Type="Path">[FrameWork_Lib]/lib/xalan-j_2_7_1/xalan.jar</CLASSPATH>
+                <CLASSPATH Type="Path">[FrameWork_Lib]/lib/xalan-j_2_7_1/xercesImpl.jar</CLASSPATH>
+                <CLASSPATH Type="Path">[FrameWork_Lib]/lib/xalan-j_2_7_1/xml-apis.jar</CLASSPATH>
+                <CLASSPATH Type="Path">[FrameWork_Lib]/lib/xalan-j_2_7_1/xsltc.jar</CLASSPATH>
+            </BUILD>
+            <JDK Name="jdk1.8.0_11"/>
+        </APPLICATION>
+    </APPLICATIONS>
+    <JDKS>
+      <JDK Name="jdk1.8.0_11">
+        <PATH Name="Home">C:\Program Files\Java\jdk1.8.0_101</PATH>
+        <JRE>
+          <PATH Name="Home">jre</PATH>
+          <PATH Name="Lib">lib</PATH>
+        </JRE>
+      </JDK>
+    </JDKS>
+    <SERVERS>
+       <SERVER Name="JBoss 4.0.5" Type="Web Application">
+            <PATHS>
+                <PATH Name="Root Deploy">
+                    D:\jboss-4.0.5.GA\server\default\deploy
+                </PATH>
+            </PATHS>
+            <COMMANDS>
+                <COMMAND Name="Deploy">
+                    <![CDATA[http://localhost:8080/jmx-console/HtmlAdaptor?action=invokeOpByName&name=jboss.system:service%3DMainDeployer&methodName=deploy&argType=java.net.URL&arg0=]]>
+                </COMMAND>
+                <COMMAND Name="Redeploy">
+                    <![CDATA[http://localhost:8080/jmx-console/HtmlAdaptor?action=invokeOpByName&name=jboss.system:service%3DMainDeployer&methodName=redeploy&argType=java.net.URL&arg0=]]>
+                </COMMAND>
+                <COMMAND Name="Undeploy">
+                    <![CDATA[http://localhost:8080/jmx-console/HtmlAdaptor?action=invokeOpByName&name=jboss.system:service%3DMainDeployer&methodName=undeploy&argType=java.net.URL&arg0=]]>
+                </COMMAND>
+            </COMMANDS>
+        </SERVER>
+    </SERVERS>
+    <PROFILES>
+        <PROFILE Name="Admin">
+            <APPLICATIONS>
+                <APPLICATION Name="FrameWork_Util"/>
+            </APPLICATIONS>
+        </PROFILE>
+    </PROFILES>
+    <USERS>
+        <USER Name="droca">
+            <LOGIN>droca</LOGIN>
+            <PASSWORD>jesuis2con</PASSWORD>
+            <PROFILES>
+                <PROFILE Name="Admin"/>
+            </PROFILES>
+        </USER>
+    </USERS>
+</ROOT>

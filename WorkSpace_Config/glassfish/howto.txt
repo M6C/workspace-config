@@ -1,0 +1,6 @@
+Utiliser un fichier 'WorkSpace_Security.xml' externe
+  Aller sur la console http://localhost:4848/
+  Menu : Configuration / JVM Settings /  JVM Options
+  Creer la variable : -Dworkspace.security.xml=../docroot/WorkSpace_Security.xml
+
+  Placer le fichier 'WorkSpace_Security.xml' dans le répertoire 'glassfish\domains\domain1\docroot' du repertoire d'install de glassfish
