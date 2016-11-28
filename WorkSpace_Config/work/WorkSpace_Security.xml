@@ -47,6 +47,13 @@
           </BUILD>
           <JDK Name="jdk1.8.0_11"/>
       </APPLICATION>
+      <APPLICATION Name="GlassFish_Domain1">
+          <PATHS>
+              <PATH Name="Main">C:\DevJ2EE\glassfish-4.1.1\glassfish\domains\domain1</PATH>
+              <PATH Name="Source"></PATH>
+              <PATH Name="Class"></PATH>
+          </PATHS>
+        </APPLICATION>
     </APPLICATIONS>
     <JDKS>
       <JDK Name="jdk1.8.0_11">
@@ -81,9 +88,10 @@
         <PROFILE Name="Admin">
             <APPLICATIONS>
               <APPLICATION Name="Test"/>
-	            <APPLICATION Name="Path_Root"/>
+	          <APPLICATION Name="Path_Root"/>
               <APPLICATION Name="FrameWork_Lib"/>
               <APPLICATION Name="FrameWork_Util"/>
+              <APPLICATION Name="GlassFish_Domain1"/>
             </APPLICATIONS>
         </PROFILE>
     </PROFILES>
