@@ -170,7 +170,7 @@
         </APPLICATION>
         <APPLICATION Name="FrameWork_Util">
             <PATHS>
-                <PATH Name="Main">[Path_Root]/FrameWork_Util</PATH>
+                <PATH Name="Main">[Path_Root]/framework-util/FrameWork_Util</PATH>
                 <PATH Name="Source">/src</PATH>
                 <PATH Name="Class">/bin</PATH>
             </PATHS>
@@ -609,7 +609,7 @@
         </JRE>
       </JDK>
       <JDK Name="jdk1.8.0_11">
-        <PATH Name="Home">C:\Program Files\Java\jdk1.8.0_101</PATH>
+        <PATH Name="Home">C:\Program Files\Java\jdk1.8.0_11</PATH>
         <JRE>
           <PATH Name="Home">jre</PATH>
           <PATH Name="Lib">lib</PATH>
