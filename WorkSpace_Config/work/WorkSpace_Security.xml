@@ -47,13 +47,91 @@
           </BUILD>
           <JDK Name="jdk1.8.0_11"/>
       </APPLICATION>
-      <APPLICATION Name="GlassFish_Domain1">
+      <APPLICATION Name="WorkSpace">
           <PATHS>
-              <PATH Name="Main">C:\DevJ2EE\glassfish-4.1.1\glassfish\domains\domain1</PATH>
+              <PATH Name="Main">C:\DevJ2EE\Workspace\workspace-neon\Workspace</PATH>
+              <PATH Name="Source">\src</PATH>
+              <PATH Name="Class">\build\classes</PATH>
+              <PATH Name="WebContent">\WebContent</PATH>
+          </PATHS>
+          <BUILD>
+              <CLASSPATH Type="Application">FrameWork</CLASSPATH>
+              <CLASSPATH Type="Application">FrameWork_Lib</CLASSPATH>
+              <!--CLASSPATH Type="Application">FrameWork_Util</CLASSPATH-->
+              <!--CLASSPATH Type="Application">FrameWork_TagLib</CLASSPATH-->
+              <!--CLASSPATH Type="Application">FrameWork_Trace</CLASSPATH-->
+              <CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/FrameWork.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/FrameWork_Util.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/FrameWork_Trace.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/FrameWork_TagLib.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/svnkit.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/json-lib-2.3-jdk15.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-antlr.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-apache-bcel.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-apache-bsf.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-apache-log4j.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-apache-oro.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-apache-regexp.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-apache-resolver.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-apache-xalan2.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-commons-logging.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-commons-net.jar</CLASSPATH>
+              <!--CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-icontract.jar</CLASSPATH-->
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-jai.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-javamail.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-jdepend.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-jmf.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-jsch.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-junit4.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-junit.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-launcher.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-netrexx.jar</CLASSPATH>
+              <!--CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-nodeps.jar</CLASSPATH-->
+              <!--CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-starteam.jar</CLASSPATH-->
+              <!--CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-stylebook.jar</CLASSPATH-->
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-swing.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-testutil.jar</CLASSPATH>
+              <!--CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-trax.jar</CLASSPATH-->
+              <!--CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-vaj.jar</CLASSPATH-->
+              <!--CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-weblogic.jar</CLASSPATH-->
+              <!--CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-xalan1.jar</CLASSPATH-->
+              <!--CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-xslp.jar</CLASSPATH-->
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/xercesImpl.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/xml-apis.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/jdk/1.6.0_14/tools.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/cvslib_36.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/hibernate3.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/JevaESUI2001-03-03.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[FrameWork_Lib]/lib/mysql-connector-java-5.1.5-bin.jar</CLASSPATH>
+              <!--CLASSPATH Type="External">I:\D\jboss-5.0.0.GA\lib</CLASSPATH-->
+              <CLASSPATH Type="External">[GlassFish]/modules/javax.servlet.jar</CLASSPATH>
+              <CLASSPATH Type="External">[GlassFish]/modules/javax.servlet-api.jar</CLASSPATH>
+          </BUILD>
+          <JDK Name="jdk1.8.0_11"/>
+          <SERVER Name="GlassFish 4.1.1 Dev"/>
+      </APPLICATION>
+      <APPLICATION Name="WorkSpace_config">
+          <PATHS>
+              <PATH Name="Main">C:\DevJ2EE\Workspace\workspace-config</PATH>
               <PATH Name="Source"></PATH>
               <PATH Name="Class"></PATH>
           </PATHS>
         </APPLICATION>
+      <APPLICATION Name="GlassFish">
+          <PATHS>
+              <PATH Name="Main">C:\DevJ2EE\glassfish-4.1.1\glassfish</PATH>
+              <PATH Name="Source"></PATH>
+              <PATH Name="Class"></PATH>
+          </PATHS>
+      </APPLICATION>
+      <APPLICATION Name="GlassFish_Domain1">
+          <PATHS>
+              <PATH Name="Main">[GlassFish]\domains\domain1</PATH>
+              <PATH Name="Source"></PATH>
+              <PATH Name="Class"></PATH>
+          </PATHS>
+      </APPLICATION>
     </APPLICATIONS>
     <JDKS>
       <JDK Name="jdk1.8.0_11">
@@ -65,9 +143,9 @@
       </JDK>
     </JDKS>
     <SERVERS>
-       <SERVER Name="JBoss 4.0.5" Type="Web Application">
+       <SERVER Name="JBoss 4.0.5" Type="WebApplication">
             <PATHS>
-                <PATH Name="Root Deploy">
+                <PATH Name="RootDeploy">
                     D:\jboss-4.0.5.GA\server\default\deploy
                 </PATH>
             </PATHS>
@@ -83,6 +161,18 @@
                 </COMMAND>
             </COMMANDS>
         </SERVER>
+        <SERVER Name="GlassFish 4.1.1 Dev" Type="WebApplication">
+            <PATHS>
+                <PATH Name="RootDeploy">
+                    C:\DevJ2EE\glassfish-4.1.1\glassfish\domains\domain1
+                </PATH>
+            </PATHS>
+            <COMMANDS>
+                <COMMAND Name="AutoDeploy">
+                    \eclipseApps\Workspace
+                </COMMAND>
+            </COMMANDS>
+        </SERVER>
     </SERVERS>
     <PROFILES>
         <PROFILE Name="Admin">
@@ -91,6 +181,9 @@
 	          <APPLICATION Name="Path_Root"/>
               <APPLICATION Name="FrameWork_Lib"/>
               <APPLICATION Name="FrameWork_Util"/>
+              <APPLICATION Name="WorkSpace_config"/>
+              <APPLICATION Name="WorkSpace"/>
+              <APPLICATION Name="GlassFish"/>
               <APPLICATION Name="GlassFish_Domain1"/>
             </APPLICATIONS>
         </PROFILE>
