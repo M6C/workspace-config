@@ -645,9 +645,9 @@
                 </COMMAND>
             </COMMANDS>
         </SERVER>
-       <SERVER Name="JBoss 4.0.5" Type="Web Application">
+       <SERVER Name="JBoss 4.0.5" Type="WebApplication">
             <PATHS>
-                <PATH Name="Root Deploy">
+                <PATH Name="RootDeploy">
                     D:\jboss-4.0.5.GA\server\default\deploy
                 </PATH>
             </PATHS>
@@ -663,9 +663,9 @@
                 </COMMAND>
             </COMMANDS>
         </SERVER>
-        <SERVER Name="JBoss 4.0.5 Dev" Type="Web Application">
+        <SERVER Name="JBoss 4.0.5 Dev" Type="WebApplication">
             <PATHS>
-                <PATH Name="Root Deploy">
+                <PATH Name="RootDeploy">
                     D:\jboss-4.0.5.GA\server\dev\deploy
                 </PATH>
             </PATHS>
@@ -681,14 +681,16 @@
                 </COMMAND>
             </COMMANDS>
         </SERVER>
-        <SERVER Name="GlassFish 4.1.1 Dev" Type="Web Application">
+        <SERVER Name="GlassFish 4.1.1 Dev" Type="WebApplication">
             <PATHS>
-                <PATH Name="Root Deploy">
-                    D:\DevJ2EE\glassfish-4.1.1\glassfish\domains\domain1\eclipseApps\Workspace
+                <PATH Name="RootDeploy">
+                    D:\DevJ2EE\glassfish-4.1.1\glassfish\domains\domain1
                 </PATH>
             </PATHS>
             <COMMANDS>
-                <COMMAND Name="AutoDeploy"/>
+                <COMMAND Name="AutoDeploy">
+					\eclipseApps\Workspace
+				</COMMAND>
             </COMMANDS>
         </SERVER>
     </SERVERS>
