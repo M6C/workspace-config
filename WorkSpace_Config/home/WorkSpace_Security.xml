@@ -219,6 +219,7 @@
                 <PATH Name="Source">\src</PATH>
                 <!--PATH Name="Class">/WorkSpace/WEB-INF/classes</PATH-->
                 <PATH Name="Class">\WebContent\WEB-INF\classes</PATH>
+                <PATH Name="WebContent">\WebContent</PATH>
             </PATHS>
             <PACKAGING>
                 <PACKAGE Type="War" Name="Deploy_Dev" Filename="[WorkSpace_Depl_Dev]/WorkSpace.war" Exploded="true">
