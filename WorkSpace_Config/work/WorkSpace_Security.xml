@@ -132,6 +132,13 @@
               <PATH Name="Class"></PATH>
           </PATHS>
       </APPLICATION>
+      <APPLICATION Name="Zack">
+          <PATHS>
+              <PATH Name="Main">C:\zack</PATH>
+              <PATH Name="Source"></PATH>
+              <PATH Name="Class"></PATH>
+          </PATHS>
+      </APPLICATION>
     </APPLICATIONS>
     <JDKS>
       <JDK Name="jdk1.8.0_11">
@@ -185,6 +192,7 @@
               <APPLICATION Name="WorkSpace"/>
               <APPLICATION Name="GlassFish"/>
               <APPLICATION Name="GlassFish_Domain1"/>
+              <APPLICATION Name="Zack"/>
             </APPLICATIONS>
         </PROFILE>
     </PROFILES>
