@@ -218,7 +218,8 @@
                 <PATH Name="Main">D:\DevJ2EE\Workspace\workspace-neon\Workspace</PATH>
                 <PATH Name="Source">\src</PATH>
                 <!--PATH Name="Class">/WorkSpace/WEB-INF/classes</PATH-->
-                <PATH Name="Class">\WebContent\WEB-INF\classes</PATH>
+                <!--PATH Name="Class">\WebContent\WEB-INF\classes</PATH-->
+                <PATH Name="Class">\build\classes</PATH>
                 <PATH Name="WebContent">\WebContent</PATH>
             </PATHS>
             <PACKAGING>
@@ -311,15 +312,27 @@
                 <CLASSPATH Type="Path">[FrameWork_Lib]/lib/hibernate3.jar</CLASSPATH>
                 <CLASSPATH Type="Path">[FrameWork_Lib]/lib/JevaESUI2001-03-03.jar</CLASSPATH>
                 <CLASSPATH Type="Path">[FrameWork_Lib]/lib/mysql-connector-java-5.1.5-bin.jar</CLASSPATH>
-                <CLASSPATH Type="External">I:\D\jboss-5.0.0.GA\lib</CLASSPATH>
-                <CLASSPATH Type="External">I:\D\jboss-4.0.5.GA\server\default\lib\javax.servlet.jar</CLASSPATH>
-                <CLASSPATH Type="External">I:\D\jboss-4.0.5.GA\server\default\lib\javax.servlet.jsp.jar</CLASSPATH>
-                <CLASSPATH Type="External">I:\D\jboss-4.0.5.GA\client\jboss-j2ee.jar</CLASSPATH>
+                <CLASSPATH Type="External">[GlassFish]/modules/javax.servlet.jar</CLASSPATH>
+				<CLASSPATH Type="External">[GlassFish]/modules/javax.servlet-api.jar</CLASSPATH>
             </BUILD>
             <JDK Name="jdk1.6.0_14"/>
             <!--SERVER Name="JBoss 4.0.5 Dev"/-->
 			<SERVER Name="GlassFish 4.1.1 Dev"/>
         </APPLICATION>
+		<APPLICATION Name="WorkSpace_config">
+			<PATHS>
+				<PATH Name="Main">D:\DevJ2EE\Workspace\workspace-config</PATH>
+				<PATH Name="Source"></PATH>
+				<PATH Name="Class"></PATH>
+          </PATHS>
+        </APPLICATION>
+		<APPLICATION Name="GlassFish">
+			<PATHS>
+				<PATH Name="Main">D:\DevJ2EE\glassfish-4.1.1\glassfish</PATH>
+				<PATH Name="Source"></PATH>
+				<PATH Name="Class"></PATH>
+			</PATHS>
+		</APPLICATION>
         <APPLICATION Name="WorkSpace_Prod">
             <PATHS>
                 <PATH Name="Main">[Path_Root]/Workspace</PATH>
@@ -700,6 +713,7 @@
             <APPLICATIONS>
 	            <APPLICATION Name="Test"/>
 	            <APPLICATION Name="Path_Root"/>
+				<APPLICATION Name="GlassFish"/>
 				<APPLICATION Name="GlassFish_Domain1"/>
                 <APPLICATION Name="FrameWork"/>
                 <APPLICATION Name="FrameWork_Html"/>
@@ -713,6 +727,7 @@
                 <APPLICATION Name="WorkSpace_Ftp"/>
                 <APPLICATION Name="WorkSpace_Depl_Dev"/>
                 <APPLICATION Name="WorkSpace_Depl_Prod"/>
+				<APPLICATION Name="WorkSpace_config"/>
                 <APPLICATION Name="Catalogue"/>
                 <APPLICATION Name="JoinFile"/>
                 <APPLICATION Name="mydomain"/>
