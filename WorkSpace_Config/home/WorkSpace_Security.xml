@@ -218,8 +218,8 @@
                 <PATH Name="Main">D:\DevJ2EE\Workspace\workspace-neon\Workspace</PATH>
                 <PATH Name="Source">\src</PATH>
                 <!--PATH Name="Class">/WorkSpace/WEB-INF/classes</PATH-->
-                <!--PATH Name="Class">\WebContent\WEB-INF\classes</PATH-->
-                <PATH Name="Class">\build\classes</PATH>
+                <PATH Name="Class">\WebContent\WEB-INF\classes</PATH>
+                <!--PATH Name="Class">\build\classes</PATH-->
                 <PATH Name="WebContent">\WebContent</PATH>
             </PATHS>
             <PACKAGING>
