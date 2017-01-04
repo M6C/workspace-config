@@ -139,6 +139,20 @@
               <PATH Name="Class"></PATH>
           </PATHS>
       </APPLICATION>
+      <APPLICATION Name="Zack_php52-silo">
+          <PATHS>
+              <PATH Name="Main">[Zack]\workspace\php52-silo</PATH>
+              <PATH Name="Source"></PATH>
+              <PATH Name="Class"></PATH>
+          </PATHS>
+      </APPLICATION>
+      <APPLICATION Name="Zack_php53-mars">
+          <PATHS>
+              <PATH Name="Main">[Zack]\workspace\php53-mars</PATH>
+              <PATH Name="Source"></PATH>
+              <PATH Name="Class"></PATH>
+          </PATHS>
+      </APPLICATION>
     </APPLICATIONS>
     <JDKS>
       <JDK Name="jdk1.8.0_11">
@@ -193,6 +207,8 @@
               <APPLICATION Name="GlassFish"/>
               <APPLICATION Name="GlassFish_Domain1"/>
               <APPLICATION Name="Zack"/>
+              <APPLICATION Name="Zack_php52-silo"/>
+              <APPLICATION Name="Zack_php53-mars"/>
             </APPLICATIONS>
         </PROFILE>
     </PROFILES>
