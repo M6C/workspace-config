@@ -97,7 +97,7 @@
         </APPLICATION>
         <APPLICATION Name="FrameWork_Lib">
             <PATHS>
-                <PATH Name="Main">[Path_Root]/FrameWork_Lib</PATH>
+                <PATH Name="Main">[Path_Root]/framework-lib/FrameWork_Lib</PATH>
             </PATHS>
             <VERSIONNING>
                 <LOCAL_DIRECTORY>D:/Dev/Travaux/Java/Eclipse/Workspace/Workspace</LOCAL_DIRECTORY>
@@ -272,12 +272,13 @@
                 <!--CLASSPATH Type="Application">FrameWork_Util</CLASSPATH-->
 				<!--CLASSPATH Type="Application">FrameWork_TagLib</CLASSPATH-->
 				<!--CLASSPATH Type="Application">FrameWork_Trace</CLASSPATH-->
-				<CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/FrameWork.jar</CLASSPATH>
-				<CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/FrameWork_Util.jar</CLASSPATH>
-				<CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/FrameWork_Trace.jar</CLASSPATH>
-				<CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/FrameWork_TagLib.jar</CLASSPATH>
-                <CLASSPATH Type="Path">[WorkSpace_Dev]/WorkSpace/WEB-INF/lib/svnkit.jar</CLASSPATH>
-                <CLASSPATH Type="Path">[WorkSpace_Dev]/WorkSpace/WEB-INF/lib/json-lib-2.3-jdk15.jar</CLASSPATH>
+				<CLASSPATH Type="Path">[WorkSpace_Dev]/WebContent/WEB-INF/lib/FrameWork.jar</CLASSPATH>
+				<CLASSPATH Type="Path">[WorkSpace_Dev]/WebContent/WEB-INF/lib/FrameWork_Util.jar</CLASSPATH>
+				<CLASSPATH Type="Path">[WorkSpace_Dev]/WebContent/WEB-INF/lib/FrameWork_Trace.jar</CLASSPATH>
+				<CLASSPATH Type="Path">[WorkSpace_Dev]/WebContent/WEB-INF/lib/FrameWork_TagLib.jar</CLASSPATH>
+                <CLASSPATH Type="Path">[WorkSpace_Dev]/WebContent/WEB-INF/lib/svnkit.jar</CLASSPATH>
+                <CLASSPATH Type="Path">[WorkSpace_Dev]/WebContent/WEB-INF/lib/json-lib-2.3-jdk15.jar</CLASSPATH>
+                <CLASSPATH Type="Path">[WorkSpace_Dev]/WebContent/WEB-INF/lib/gwt-servlet.jar</CLASSPATH>
                 <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant.jar</CLASSPATH>
                 <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-antlr.jar</CLASSPATH>
                 <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-apache-bcel.jar</CLASSPATH>
@@ -316,8 +317,10 @@
                 <CLASSPATH Type="Path">[FrameWork_Lib]/lib/hibernate3.jar</CLASSPATH>
                 <CLASSPATH Type="Path">[FrameWork_Lib]/lib/JevaESUI2001-03-03.jar</CLASSPATH>
                 <CLASSPATH Type="Path">[FrameWork_Lib]/lib/mysql-connector-java-5.1.5-bin.jar</CLASSPATH>
+				<CLASSPATH Type="Path">[GlassFish]/modules/javax.jms-api.jar</CLASSPATH>
                 <CLASSPATH Type="Path">[GlassFish]/modules/javax.servlet.jar</CLASSPATH>
 				<CLASSPATH Type="Path">[GlassFish]/modules/javax.servlet-api.jar</CLASSPATH>
+				<CLASSPATH Type="Path">[GlassFish]/modules/javax.servlet.jsp-api.jar</CLASSPATH>
             </BUILD>
             <JDK Name="jdk1.8.0_11"/>
             <!--SERVER Name="JBoss 4.0.5 Dev"/-->
