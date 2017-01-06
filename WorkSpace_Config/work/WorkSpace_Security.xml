@@ -66,6 +66,7 @@
               <CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/FrameWork_TagLib.jar</CLASSPATH>
               <CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/svnkit.jar</CLASSPATH>
               <CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/json-lib-2.3-jdk15.jar</CLASSPATH>
+              <CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/guessencoding-1.4.jar</CLASSPATH>
               <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant.jar</CLASSPATH>
               <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-antlr.jar</CLASSPATH>
               <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-apache-bcel.jar</CLASSPATH>
