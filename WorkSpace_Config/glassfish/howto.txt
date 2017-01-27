@@ -4,3 +4,10 @@
   Creer la variable : -Dworkspace.security=../docroot/WorkSpace_Security.xml
 
   Placer le fichier 'WorkSpace_Security.xml' dans le répertoire 'glassfish\domains\domain1\docroot' du repertoire d'install de glassfish
+
+Enable GlassFish Debug : https://docs.oracle.com/cd/E18930_01/html/821-2418/beafd.html
+  Aller sur la console http://localhost:4848/
+    1 Use the Administration Console. Select the JVM Settings component under the relevant configuration.
+    2 Check the Debug Enabled box.
+    3 To specify a different port (from 9009, the default) to use when attaching the JVM software to a debugger, specify address= port-number in the Debug Options field.
+    4 To add JPDA options, add any desired JPDA debugging options in Debug Options. See JPDA Options.
