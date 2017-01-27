@@ -5,6 +5,16 @@
             <PATH Name="Main">C:/Dev/Travaux/Java/Eclipse/Workspace</PATH>
           </PATHS>
       </APPLICATION>
+      <APPLICATION Name="AngularJS_Root">
+          <PATHS>
+            <PATH Name="Main">C:/Dev/Angular2</PATH>
+          </PATHS>
+      </APPLICATION>
+      <APPLICATION Name="Path_Root_Workspace_Php">
+          <PATHS>
+            <PATH Name="Main">C:/Dev/Workspace/php</PATH>
+          </PATHS>
+      </APPLICATION>
       <APPLICATION Name="FrameWork_Lib">
           <PATHS>
               <PATH Name="Main">[Path_Root]/framework-lib/FrameWork_Lib</PATH>
@@ -60,13 +70,14 @@
               <!--CLASSPATH Type="Application">FrameWork_Util</CLASSPATH-->
               <!--CLASSPATH Type="Application">FrameWork_TagLib</CLASSPATH-->
               <!--CLASSPATH Type="Application">FrameWork_Trace</CLASSPATH-->
-              <CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/FrameWork.jar</CLASSPATH>
-              <CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/FrameWork_Util.jar</CLASSPATH>
-              <CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/FrameWork_Trace.jar</CLASSPATH>
-              <CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/FrameWork_TagLib.jar</CLASSPATH>
-              <CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/svnkit.jar</CLASSPATH>
-              <CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/json-lib-2.3-jdk15.jar</CLASSPATH>
-              <CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/guessencoding-1.4.jar</CLASSPATH>
+              <!--CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/FrameWork.jar</CLASSPATH-->
+              <!--CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/FrameWork_Util.jar</CLASSPATH-->
+              <!--CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/FrameWork_Trace.jar</CLASSPATH-->
+              <!--CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/FrameWork_TagLib.jar</CLASSPATH-->
+              <!--CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/svnkit.jar</CLASSPATH-->
+              <!--CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/json-lib-2.3-jdk15.jar</CLASSPATH-->
+              <!--CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib/guessencoding-1.4.jar</CLASSPATH-->
+              <CLASSPATH Type="Path">[WorkSpace]/WebContent/WEB-INF/lib</CLASSPATH>
               <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant.jar</CLASSPATH>
               <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-antlr.jar</CLASSPATH>
               <CLASSPATH Type="Path">[FrameWork_Lib]/lib/ant/1.8.2/lib/ant-apache-bcel.jar</CLASSPATH>
@@ -154,6 +165,18 @@
               <PATH Name="Class"></PATH>
           </PATHS>
       </APPLICATION>
+      <APPLICATION Name="bootstrap-back-symfony">
+          <PATHS>
+            <PATH Name="Main">[Path_Root_Workspace_Php]/bootstrap-back-symfony</PATH>
+              <PATH Name="Source"></PATH>
+              <PATH Name="Class"></PATH>
+          </PATHS>
+      </APPLICATION>
+      <APPLICATION Name="AngularJS_Workshop">
+          <PATHS>
+            <PATH Name="Main">[AngularJS_Root]/Workshop</PATH>
+          </PATHS>
+      </APPLICATION>
     </APPLICATIONS>
     <JDKS>
       <JDK Name="jdk1.8.0_11">
@@ -210,6 +233,10 @@
               <APPLICATION Name="Zack"/>
               <APPLICATION Name="Zack_php52-silo"/>
               <APPLICATION Name="Zack_php53-mars"/>
+              <APPLICATION Name="Path_Root_Workspace_Php"/>
+              <APPLICATION Name="bootstrap-back-symfony"/>
+                <APPLICATION Name="AngularJS_Root"/>
+                <APPLICATION Name="AngularJS_Workshop"/>
             </APPLICATIONS>
         </PROFILE>
     </PROFILES>
