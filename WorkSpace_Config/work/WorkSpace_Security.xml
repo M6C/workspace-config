@@ -20,6 +20,13 @@
               <PATH Name="Main">[Path_Root]/framework-lib/FrameWork_Lib</PATH>
           </PATHS>
       </APPLICATION>
+      <APPLICATION Name="FrameWork">
+          <PATHS>
+              <PATH Name="Main">[Path_Root]/framework/FrameWork</PATH>
+              <PATH Name="Source">/src</PATH>
+              <PATH Name="Class">/bin</PATH>
+          </PATHS>
+      </APPLICATION>
       <APPLICATION Name="FrameWork_Util">
           <PATHS>
               <PATH Name="Main">[Path_Root]/framework-util/FrameWork_Util</PATH>
@@ -64,6 +71,11 @@
               <PATH Name="Class">\build\classes</PATH>
               <PATH Name="WebContent">\WebContent</PATH>
           </PATHS>
+          <DEBUG>
+              <HOSTNAME>localhost</HOSTNAME>
+              <PORT>8380</PORT>
+              <TIMEOUT>60000</TIMEOUT><!-- 10 minutes -->
+          </DEBUG>
           <BUILD>
               <CLASSPATH Type="Application">FrameWork</CLASSPATH>
               <CLASSPATH Type="Application">FrameWork_Lib</CLASSPATH>
@@ -225,6 +237,7 @@
               <APPLICATION Name="Test"/>
 	          <APPLICATION Name="Path_Root"/>
               <APPLICATION Name="FrameWork_Lib"/>
+              <APPLICATION Name="FrameWork"/>
               <APPLICATION Name="FrameWork_Util"/>
               <APPLICATION Name="WorkSpace_config"/>
               <APPLICATION Name="WorkSpace"/>
