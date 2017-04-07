@@ -5,9 +5,9 @@
             <PATH Name="Main">C:/Dev/Travaux/Java/Eclipse/Workspace</PATH>
           </PATHS>
       </APPLICATION>
-      <APPLICATION Name="AngularJS_Root">
+      <APPLICATION Name="bootstrap-back-springboot">
           <PATHS>
-            <PATH Name="Main">C:/Dev/Angular2</PATH>
+            <PATH Name="Main">C:/Users/ckh146/workspace/bootstrap-back-springboot</PATH>
           </PATHS>
       </APPLICATION>
       <APPLICATION Name="FrameWork_Lib">
@@ -222,9 +222,11 @@
               <PATH Name="Class"></PATH>
           </PATHS>
       </APPLICATION>
-      <APPLICATION Name="AngularJS_Workshop">
+      <APPLICATION Name="GlassFish_Domain2">
           <PATHS>
-            <PATH Name="Main">[AngularJS_Root]/Workshop</PATH>
+              <PATH Name="Main">[GlassFish]\domains\domain2</PATH>
+              <PATH Name="Source"></PATH>
+              <PATH Name="Class"></PATH>
           </PATHS>
       </APPLICATION>
     </APPLICATIONS>
@@ -293,8 +295,8 @@
               <APPLICATION Name="WorkSpace Domain2"/>
               <APPLICATION Name="GlassFish"/>
               <APPLICATION Name="GlassFish_Domain1"/>
-              <APPLICATION Name="AngularJS_Root"/>
-              <APPLICATION Name="AngularJS_Workshop"/>
+              <APPLICATION Name="GlassFish_Domain2"/>
+              <APPLICATION Name="bootstrap-back-springboot"/>
             </APPLICATIONS>
         </PROFILE>
     </PROFILES>
