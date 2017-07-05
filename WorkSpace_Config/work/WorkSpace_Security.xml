@@ -229,6 +229,13 @@
               <PATH Name="Class"></PATH>
           </PATHS>
       </APPLICATION>
+      <APPLICATION Name="Angular_Material">
+          <PATHS>
+              <PATH Name="Main">C:\DevJ2EE\Workspace\workspace-angular\angular-material-start</PATH>
+              <PATH Name="Source">app\src</PATH>
+              <PATH Name="Class"></PATH>
+          </PATHS>
+      </APPLICATION>
     </APPLICATIONS>
     <JDKS>
       <JDK Name="jdk1.8.0_11">
@@ -297,6 +304,7 @@
               <APPLICATION Name="GlassFish_Domain1"/>
               <APPLICATION Name="GlassFish_Domain2"/>
               <APPLICATION Name="bootstrap-back-springboot"/>
+              <APPLICATION Name="Angular_Material"/>
             </APPLICATIONS>
         </PROFILE>
     </PROFILES>
