@@ -7,7 +7,7 @@
       </APPLICATION>
       <APPLICATION Name="bootstrap-back-springboot">
           <PATHS>
-            <PATH Name="Main">C:/Users/ckh146/workspace/bootstrap-back-springboot</PATH>
+            <PATH Name="Main">C:/dev/APPUI/Workspace/bootstrap-back-springboot</PATH>
           </PATHS>
       </APPLICATION>
       <APPLICATION Name="FrameWork_Lib">
