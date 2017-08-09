@@ -747,6 +747,13 @@
               <PATH Name="Class"></PATH>
           </PATHS>
         </APPLICATION>
+		<APPLICATION Name="Angular Material Start">
+			<PATHS>
+				<PATH Name="Main">D:\DevJ2EE\Workspace_Angular\angular-material-start\app</PATH>
+				<PATH Name="Source">src</PATH>
+				<PATH Name="Class"></PATH>
+          </PATHS>
+        </APPLICATION>
     </APPLICATIONS>
     <JDKS>
       <JDK Name="jdk1.4">
@@ -855,6 +862,7 @@
                 <APPLICATION Name="G:"/>
                 <APPLICATION Name="Photo"/>
                 <APPLICATION Name="Projet01"/>
+		        <APPLICATION Name="Angular Material Start"/>
             </APPLICATIONS>
         </PROFILE>
     </PROFILES>
