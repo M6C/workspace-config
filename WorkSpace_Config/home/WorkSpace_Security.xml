@@ -754,6 +754,13 @@
 				<PATH Name="Class"></PATH>
           </PATHS>
         </APPLICATION>
+		<APPLICATION Name="Workspace Neon">
+			<PATHS>
+				<PATH Name="Main">D:\DevJ2EE\Workspace\workspace-neon</PATH>
+				<PATH Name="Source">Workspace\src</PATH>
+				<PATH Name="Class"></PATH>
+          </PATHS>
+        </APPLICATION>
     </APPLICATIONS>
     <JDKS>
       <JDK Name="jdk1.4">
@@ -863,6 +870,7 @@
                 <APPLICATION Name="Photo"/>
                 <APPLICATION Name="Projet01"/>
 		        <APPLICATION Name="Angular Material Start"/>
+		        <APPLICATION Name="Workspace Neon"/>
             </APPLICATIONS>
         </PROFILE>
     </PROFILES>
